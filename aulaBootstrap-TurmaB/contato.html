@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - AutoLuxo</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="topo">
+  <div class="container py-4 text-center">
+    <h1>Bootstrap na Prática</h1>
+    <p>Aprendendo HTML, CSS e Bootstrap com um site simples.</p>
+  </div>
+</header>
+
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="loja.html">Loja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produtos.html">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+ 
+    <div class="container mt-5 mb-5">
+      <h1 class="tx">Formulário de Contato</h1>
+      <p class="text-center text-muted mb-5">Preencha os dados abaixo para entrar em contato conosco</p>
+    </div>
+
+   
+    <div class="Formulario">
+      <form class="needs-validation" novalidate>
+        
+      
+        <div class="mb-4">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="validationCustom01" class="form-label">Primeiro Nome</label>
+              <input type="text" class="form-control" id="validationCustom01" required>
+              <div class="valid-feedback">Perfeito!</div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom02" class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="validationCustom02" required>
+              <div class="valid-feedback">Perfeito!</div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="mb-4"> 
+          <div class="row g-3">
+            <div class="col-12">
+              <label for="validationCustomUsername" class="form-label">Email</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="email" class="form-control" id="validationCustomUsername" required>
+                <div class="invalid-feedback">Por favor, forneça um email válido.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="mb-4">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">Por favor, forneça uma cidade válida.</div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">Estado</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Selecione...</option>
+                <option>Minas Gerais</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Espírito Santo</option>
+              </select>
+              <div class="invalid-feedback">Por favor, selecione um estado válido.</div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">Por favor, forneça um CEP válido.</div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="mb-4">
+          <div class="row g-3">
+            <div class="col-12">
+              <select class="form-select" id="modeloInteresse" required>
+                <option selected disabled value="">Escolha um modelo...</option>
+                <option>Aerofolio</option>
+                <option>Pastilha de Freio</option>
+                <option>Volante AMG GT3</option>
+                <option>Suspensao Ajustavel</option>
+                <option>Pneus slick Michelin</option>
+
+              </select>
+              <div class="invalid-feedback">Por favor, selecione um modelo.</div>
+            </div>
+          </div>
+        </div>
+        <div class="mb-4">
+          <div class="row g-3">
+            <div class="col-12">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem aqui..." required></textarea>
+              <div class="invalid-feedback">Por favor, forneça uma mensagem.</div>
+            </div>
+          </div>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-center mt-4">
+          <button class="btn btn-primary" type="submit" style="background-color: #073b59; border: none; padding: 10px 40px; font-size: 1rem;">
+            <i class="bi bi-send"></i> Enviar
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </main>
+
+    <footer class="rodape text-center">
+        <div class="container">
+            <h5>Desenvolvedor VitorSilva...</h5>
+            <i class="bi bi-arrow-up-circle"></i>
+        </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

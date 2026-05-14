@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap na Prática</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="topo">
+  <div class="container py-4 text-center">
+    <h1>Bootstrap na Prática</h1>
+    <p>Aprendendo HTML, CSS e Bootstrap com um site simples.</p>
+  </div>
+</header>
+
+  
+
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="loja.html">Loja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produtos.html">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+    <div class="container py-4">
+      <div class="carousel-box mx-auto">
+        <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/img1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img4.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img5.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      </div>
+    </div>
+
+    
+    <section class="galeria-secao">
+      <h2 class="text-center mb-5">Galeria</h2>
+      <div class="container">
+        <div class="row g-4">
+         
+          <div class="col-md-6 col-lg-4">
+            <div class="card galeria-card h-100">
+              <img src="img/img1.png" class="card-img-top" alt="Foto 1">
+              <div class="card-body">
+                <h5 class="card-title">Tecnologia</h5>
+                <p class="card-text">Conta com recursos aerodinâmicos avançados para melhorar o controle nas pistas.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card galeria-card h-100">
+              <img src="img/img2.png" class="card-img-top" alt="Foto 2">
+              <div class="card-body">
+                <h5 class="card-title">Desempenho</h5>
+                <p class="card-text">A Mercedes-AMG GT3 entrega potência elevada e ótima estabilidade em altas velocidades.</p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-6 col-lg-4">
+            <div class="card galeria-card h-100">
+              <img src="img/img3.png" class="card-img-top" alt="Foto 3">
+              <div class="card-body">
+                <h5 class="card-title">Competitividade</h5>
+                <p class="card-text">A AMG GT3 é destaque em campeonatos GT pelo seu desempenho consistente.</p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-6 col-lg-4">
+            <div class="card galeria-card h-100">
+              <img src="img/img4.png" class="card-img-top" alt="Foto 4">
+              <div class="card-body">
+                <h5 class="card-title">Velocidade</h5>
+                <p class="card-text">Seu motor V8 proporciona aceleração rápida e excelente resposta nas retas.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card galeria-card h-100">
+              <img src="img/img5.png" class="card-img-top" alt="Foto 5">
+              <div class="card-body">
+                <h5 class="card-title">Segurança</h5>
+                <p class="card-text">O carro possui estrutura reforçada e sistemas preparados para corridas profissionais.</p>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-6 col-lg-4">
+            <div class="card galeria-card h-100">
+              <img src="img/amg6.webp" class="card-img-top" alt="Foto 5">
+              <div class="card-body">
+                <h5 class="card-title">Resistência</h5>
+                <p class="card-text">Foi desenvolvida para suportar corridas longas com máxima confiabilidade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ 
+      <footer class="rodape text-center">
+        <div class="container">
+            <h5>Desenvolvedor VitorSilva...</h5>
+            <i class="bi bi-arrow-up-circle"></i>
+        </div>
+    </footer>
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
